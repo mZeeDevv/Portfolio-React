@@ -1,7 +1,20 @@
 import React from 'react'
-
+import Navbar from '../headers/Navbar'
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <>
+    <section>
+      <div 
+      className="flex"
+      >
+        <div>
+          <Navbar/>
+        </div>
+        <div>
+          Projects
+        </div>
+      </div>
+    </section>
+    </>
   )
 }

@@ -1,7 +1,21 @@
 import React from 'react'
+import Navbar from '../headers/Navbar'
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <>
+    <section>
+      <div 
+      className="flex"
+      >
+        <div>
+          <Navbar/>
+        </div>
+        <div>
+          Contact
+        </div>
+      </div>
+    </section>
+    </>
   )
 }
