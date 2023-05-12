@@ -15,7 +15,7 @@ export default function Navbar() {
     <>
     <div
     className=' 
-    flex justify-center flex-col text-2xl'>
+    flex justify-center flex-col text-2xl items-center'>
         <p 
         onClick={() => Navigate("/")}
        className={`flex justify-center items-center text-gray-800 mt-3 cursor-pointer
@@ -75,10 +75,10 @@ export default function Navbar() {
 
         <p
          onClick={() => Navigate("/contact")}
-       className={`flex justify-center items-center text-gray-800 mt-3 cursor-pointer
+       className={`flex justify-center items-center text-gray-800 mt-3 cursor-pointer ml-7
        ${Location("/contact") && "text-blue-800"}`}>
          {Location("/contact") && <AiFillCaretRight
-         className='text-blue-500 text-3xl'/>}
+         className='text-blue-500 text-3xl absolute left-0'/>}
         <FaHandshake
         className='text-3xl '
         />
